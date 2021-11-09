@@ -1,11 +1,11 @@
 {
   "name": "tell-me-information-about",
   "version": "1.0.0",
-  "description": "",
-  "main": "script.js",
+  "description": "Tell me information about",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Mahir Prcanovic",
   "license": "ISC",
