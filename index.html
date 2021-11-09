@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Tell me information about is website made for anyone who wants to learn about english words.By inserting word you can find information like phonetics,definition,example,description,synonmys about any word in English language"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="GitHub-Mark-Light-120px-plus.png" />
+    <link rel="apple-touch-icon" href="GitHub-Mark-Light-64px.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Tell me about the word</title>
+  </head>
+  <body>
+    <main class="">
+      <header class="header">
+        <div class="logo-title">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="header-logo"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+            />
+          </svg>
+          <h2 class="title">Tell me about the word</h2>
+        </div>
+        <a href="https://github.com/MahirPrcanovic" target="_blank"
+          ><img
+            src="./GitHub-Mark-Light-120px-plus.png"
+            alt="Git gub mark"
+            class="mark"
+        /></a>
+      </header>
+      <div class="error hidden">
+        <p class="error-text">We couldn't find anything for this one!</p>
+      </div>
+      <div class="search">
+        <input
+          class="input"
+          type="search"
+          placeholder="Tell me information about the word"
+          required="required"
+          autocomplete="off"
+        />
+        <button class="button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="button-icon"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+            />
+          </svg>
+        </button>
+      </div>
+    </main>
+    <aside class="hidden">
+      <div class="content-box">
+        <div class="restart">
+          <button class="try-another">Try again!</button>
+          <h2 class="content-title">WORD</h2>
+        </div>
+        <div class="phonetics">
+          <p>
+            <span class="phonetic-text">Phonetic: </span>
+            <span class="text-1"></span> <span class="text-2"></span>
+          </p>
+          <p>
+            Audio: <a href="#" class="audio" target="_blank">Click to hear</a>
+          </p>
+        </div>
+        <div class="meanings">
+          <!-- <h3 class="meanings-title">Meanings</h3> -->
+          <div class="meaning meaning--1 hidden">
+            <p>
+              <span class="txt">Part of speech:</span>
+              <span class="part-of-speech-1"></span>
+            </p>
+            <p>
+              <span class="txt">Definition:</span>
+              <span class="definition-1"></span>
+            </p>
+            <p>
+              <span class="txt"> Example: </span><span class="example-1"></span>
+            </p>
+            <p>
+              <span class="txt"> Synonyms:</span>
+              <span class="synonyms-1"></span>
+            </p>
+          </div>
+          <div class="meaning meaning--2 hidden">
+            <p>
+              <span class="txt"> Part of speech: </span
+              ><span class="part-of-speech-2"></span>
+            </p>
+            <p>
+              <span class="txt"> Definition: </span
+              ><span class="definition-2"></span>
+            </p>
+            <p>
+              <span class="txt"> Example: </span><span class="example-2"></span>
+            </p>
+            <p>
+              <span class="txt"> Synonyms:</span>
+              <span class="synonyms-2"></span>
+            </p>
+          </div>
+          <div class="meaning meaning--3 hidden">
+            <p>
+              <span class="txt"> Part of speech: </span
+              ><span class="part-of-speech-3"></span>
+            </p>
+            <p>
+              <span class="txt">Definition: </span
+              ><span class="definition-3"></span>
+            </p>
+            <p>
+              <span class="txt"> Example: </span><span class="example-3"></span>
+            </p>
+            <p>
+              <span class="txt"> Synonyms: </span
+              ><span class="synonyms-3"></span>
+            </p>
+          </div>
+          <div class="meaning meaning--4 hidden">
+            <p>
+              <span class="txt"> Part of speech: </span
+              ><span class="part-of-speech-4"></span>
+            </p>
+            <p>
+              <span class="txt"> Definition: </span
+              ><span class="definition-4"></span>
+            </p>
+            <p>
+              <span class="txt"> Example: </span><span class="example-4"></span>
+            </p>
+            <p>
+              <span class="txt">Synonyms: </span
+              ><span class="synonyms-4"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </body>
+  <script defer src="script.js"></script>
+</html>

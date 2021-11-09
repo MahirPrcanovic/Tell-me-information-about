@@ -1,0 +1,15 @@
+{
+  "name": "tell-me-information-about",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Mahir Prcanovic",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  }
+}
